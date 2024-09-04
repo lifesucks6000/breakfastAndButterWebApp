@@ -5,8 +5,8 @@ import (
 	"breakfastAndBedWebApp/pkg/handlers"
 	"net/http"
 
-	"github.com/go-chi/chi"
-	"github.com/go-chi/chi/middleware"
+	"github.com/go-chi/chi"            // library used for route handling
+	"github.com/go-chi/chi/middleware" // library used for using middleware
 )
 
 func routes(app *config.AppConfig) http.Handler {

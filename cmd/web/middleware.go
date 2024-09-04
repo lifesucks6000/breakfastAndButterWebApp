@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/justinas/nosurf"
+	"github.com/justinas/nosurf" // library used for CSRF protection
 )
 
 // NoSurf adds CSRF protection to all requests

@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/alexedwards/scs/v2"
+	"github.com/alexedwards/scs/v2" // library used for session management
 )
 
 const hostPort = "localhost:8080"
