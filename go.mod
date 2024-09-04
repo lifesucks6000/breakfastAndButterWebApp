@@ -1,4 +1,4 @@
-module tutorialPractice
+module breakfastAndBedWebApp
 
 go 1.20
 

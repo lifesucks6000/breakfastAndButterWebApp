@@ -1,10 +1,10 @@
 package handlers
 
 import (
+	"breakfastAndBedWebApp/pkg/config"
+	"breakfastAndBedWebApp/pkg/models"
+	"breakfastAndBedWebApp/pkg/render"
 	"net/http"
-	"tutorialPractice/pkg/config"
-	"tutorialPractice/pkg/models"
-	"tutorialPractice/pkg/render"
 )
 
 // Repo is the repository used by the handlers

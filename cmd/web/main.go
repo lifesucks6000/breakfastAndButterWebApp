@@ -1,13 +1,13 @@
 package main
 
 import (
+	"breakfastAndBedWebApp/pkg/config"
+	"breakfastAndBedWebApp/pkg/handlers"
+	"breakfastAndBedWebApp/pkg/render"
 	"fmt"
 	"log"
 	"net/http"
 	"time"
-	"tutorialPractice/pkg/config"
-	"tutorialPractice/pkg/handlers"
-	"tutorialPractice/pkg/render"
 
 	"github.com/alexedwards/scs/v2"
 )

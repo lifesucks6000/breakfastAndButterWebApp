@@ -1,13 +1,13 @@
 package render
 
 import (
+	"breakfastAndBedWebApp/pkg/config"
+	"breakfastAndBedWebApp/pkg/models"
 	"bytes"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
-	"tutorialPractice/pkg/config"
-	"tutorialPractice/pkg/models"
 )
 
 var app *config.AppConfig

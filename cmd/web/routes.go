@@ -1,9 +1,9 @@
 package main
 
 import (
+	"breakfastAndBedWebApp/pkg/config"
+	"breakfastAndBedWebApp/pkg/handlers"
 	"net/http"
-	"tutorialPractice/pkg/config"
-	"tutorialPractice/pkg/handlers"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
