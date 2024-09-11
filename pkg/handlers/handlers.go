@@ -52,3 +52,32 @@ func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
 func (m *Repository) Awesome(w http.ResponseWriter, r *http.Request) {
 	render.RenderTemplate(w, "awesome.page.tmpl", &models.TemplateData{})
 }
+
+// Generals just handles an Generals page
+func (m *Repository) Generals(w http.ResponseWriter, r *http.Request) {
+	render.RenderTemplate(w, "generals.page.tmpl", &models.TemplateData{})
+}
+
+// Majors just handles an majors-suite page
+func (m *Repository) Majors(w http.ResponseWriter, r *http.Request) {
+	render.RenderTemplate(w, "majors.page.tmpl", &models.TemplateData{})
+}
+
+// Availability just handles an search-availability page
+func (m *Repository) Availability(w http.ResponseWriter, r *http.Request) {
+	render.RenderTemplate(w, "search-availability.page.tmpl", &models.TemplateData{})
+}
+
+// PostAvailability just handles an PostAvailability request
+func (m *Repository) PostAvailability(w http.ResponseWriter, r *http.Request) {
+}
+
+// Contact just handles an Contacts page
+func (m *Repository) Contact(w http.ResponseWriter, r *http.Request) {
+	render.RenderTemplate(w, "contact.page.tmpl", &models.TemplateData{})
+}
+
+// Reservation just handles an make-reservation page
+func (m *Repository) Reservation(w http.ResponseWriter, r *http.Request) {
+	render.RenderTemplate(w, "make-reservation.page.tmpl", &models.TemplateData{})
+}
